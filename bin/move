@@ -5,8 +5,10 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 puts "where would you like to go?"
 
-number = gets.strip
+input = gets.strip
 
 # Code your CLI Here
 
-move (board, number, "X")
+index = input_to_index(input)
+
+update_array_at_with
