@@ -10,7 +10,6 @@ cells = ["","","","","","","","",""]
 
 # code your input_to_index and move method here!
 
-cell = gets.strip #MOVE THIS TO BIN
 
 def input_to_index (num) #Want cell 1 means fill board[0]
   puts  (num - 1).to_i
