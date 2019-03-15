@@ -8,3 +8,5 @@ puts "where would you like to go?"
 number = gets.strip
 
 # Code your CLI Here
+
+move
