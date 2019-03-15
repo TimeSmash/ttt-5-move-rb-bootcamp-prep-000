@@ -9,7 +9,7 @@ input = gets.strip
 
 # Code your CLI Here
 
-board = ["","","","","","","","",""]
+board = [" "," "," "," "," "," "," "," "," "]
 
 index = input_to_index(input)
 
