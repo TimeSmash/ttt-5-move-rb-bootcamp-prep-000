@@ -17,6 +17,6 @@ def input_to_index (num) #Want cell 1 means fill board[0]
 end
   
 def move (array, index, value = "X") #select array to modify, which index of array, and what to put in
-  array[input_to_index(index)] = value
+  array[index] = value
   return display_board(array)
 end
