@@ -9,4 +9,4 @@ number = gets.strip
 
 # Code your CLI Here
 
-move (board, input_to_index(number), 
+move (board, input_to_index(number))
