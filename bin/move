@@ -9,4 +9,4 @@ number = gets.strip
 
 # Code your CLI Here
 
-move
+move (board, 
