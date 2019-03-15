@@ -11,6 +11,6 @@ input = gets.strip
 
 index = input_to_index(input)
 
-update_array_at_with(board, index)
+move(board, index)
 
 display_board(board)
