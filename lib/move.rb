@@ -12,7 +12,7 @@ cells = ["","","","","","","","",""]
 
 
 def input_to_index (num) #Want cell 1 means fill board[0]
-  puts ((num.to_i) - 1)
+  puts (num).to_i
 end
   
 def update_array_at_with (array, index, value = "X")
