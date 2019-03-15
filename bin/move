@@ -9,6 +9,8 @@ input = gets.strip
 
 # Code your CLI Here
 
+board = ["","","","","","","","",""]
+
 index = input_to_index(input)
 
 move(board, index)
