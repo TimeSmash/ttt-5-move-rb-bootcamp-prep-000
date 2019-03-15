@@ -12,7 +12,7 @@ cells = ["","","","","","","","",""]
 
 
 def input_to_index (num) #Want cell 1 means fill board[0]
-  converted_input = (num - 1).to_i
+  converted_input = (num).to_i - 1
   puts converted_input
 end
   
