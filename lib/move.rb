@@ -16,6 +16,8 @@ def input_to_index (num) #Want cell 1 means fill board[0]
   return converted_input
 end
   
+  #converted_input = index for method below?
+  
 def move (array, index, value = "X") #select array to modify, which index of array, and what to put in
   array[index] = value
   return display_board(array)
