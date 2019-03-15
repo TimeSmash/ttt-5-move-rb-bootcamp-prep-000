@@ -18,7 +18,7 @@ end
   
   #converted_input = index for method below?
   
-def update_array_at_with (array, index, value = "X") #select array to modify, which index of array, and what to put in
+def move (array, index, value = "X") #select array to modify, which index of array, and what to put in
   array[index] = value
   return display_board(array)
 end
